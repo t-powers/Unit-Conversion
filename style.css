@@ -12,9 +12,7 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   background: #f4f4f4;
-  width: 100;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 img,
@@ -49,4 +47,5 @@ section:first-child {
   background: #6943ff;
   color: white;
   height: 180px;
+  padding-top: 25px;
 }

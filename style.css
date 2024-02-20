@@ -40,11 +40,12 @@ h2 {
 #__next {
   isolation: isolate;
 }
-h1 {
+section:first-child{
   background: #6943ff;
   color: white;
-  height: 150px;
+  height: 180px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }

@@ -40,3 +40,11 @@ h2 {
 #__next {
   isolation: isolate;
 }
+h1 {
+  background: #6943ff;
+  color: white;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

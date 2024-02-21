@@ -15,10 +15,7 @@ body {
   text-align: center;
 }
 
-input,
-button,
-textarea,
-select {
+button {
   font: inherit;
 }
 
@@ -47,5 +44,4 @@ section:first-child {
   border: 1px solid;
   margin: 20px auto;
   padding: 0px 20px;
-  
 }

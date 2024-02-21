@@ -17,6 +17,8 @@ body {
 
 button {
   font: inherit;
+  margin: 0 auto;
+  padding: 5px 35px;
 }
 
 p,

@@ -13,6 +13,8 @@ body {
   -webkit-font-smoothing: antialiased;
   background: #f4f4f4;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 button {
@@ -33,6 +35,12 @@ h2 {
   isolation: isolate;
 }
 
+section {
+  background-color: white;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
 section:first-child {
   display: flex;
   flex-direction: column;
@@ -45,10 +53,5 @@ section:first-child {
 #inputNumber {
   font-size: 30px;
   width: 15rem;
-  margin:20px auto;
-}
-
-section {
-  background-color: white;
-  margin-bottom: 20px;
+  margin: 20px auto;
 }

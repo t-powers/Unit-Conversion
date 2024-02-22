@@ -42,14 +42,13 @@ section:first-child {
   padding: 40px 30px;
 }
 
-section{
-  background-color:white;
-  margin-bottom: 20px;
+#inputNumber {
+  font-size: 30px;
+  width: 15rem;
+  margin:20px auto;
 }
 
-#inputNumber {
-  font-size: 60px;
-  border: 1px solid;
-  margin: 20px auto;
-  padding: 0px 20px;
+section {
+  background-color: white;
+  margin-bottom: 20px;
 }

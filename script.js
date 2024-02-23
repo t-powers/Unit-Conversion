@@ -1,3 +1,3 @@
-// const inputNumber = document.getElementById("input-number");
-// const convertButton = document.getElementById("convert-button");
-console.log("hi")
+const inputNumber = document.getElementById("input-number");
+const convertButton = document.getElementById("convert-button");
+

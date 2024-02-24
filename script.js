@@ -11,7 +11,10 @@ convertButton.addEventListener("click", function () {
 function renderInput() {
   let inputItem = "";
   for (let i = 0; i < userInput.length; i++) {
-    inputItem += `${userInput} meters = ${userInput[i]} feet| ${userInput[i]} feet = ${userInput} meters`;
+    inputItem += `
+      ${userInput} meters = ${userInput[i] * 3.28084} feet  |  
+      ${userInput[i] * 3.28084} feet = ${userInput} meters
+      `;
   }
   firstSection.innerHTML = inputItem;
 }

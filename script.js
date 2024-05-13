@@ -8,12 +8,13 @@ convertBtn.addEventListener("click", function () {
   massConversion();
 });
 
-// multiply meter to feet by 3.281
+// multiply meter to feet by 3.281, divide for feet to meter
 function lengthConversion() {
   const length = document.getElementById("first-section");
   let meterInput = inputNumber.value;
   let meterToFeet = meterInput * 3.281;
-  length.innerHTML = meterToFeet;
+  let feetToMeter = meterInput / 3.281
+  length.innerHTML = `${meterInput} meters = ${meterToFeet.toFixed(3)} feet  |  ${meterInput} feet = ${feetToMeter.toFixed(3)} meters`;
 }
 
 // divide liter to gallon by 3.785

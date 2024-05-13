@@ -38,5 +38,5 @@ function massConversion() {
   let poundsToKilo = massInput / 2.205;
   mass.innerHTML = `${massInput} kilograms = ${kiloToPounds.toFixed(
     3
-  )}  |  ${massInput} pounds = ${poundsToKilo} kilograms`;
+  )}  |  ${massInput} pounds = ${poundsToKilo.toFixed(3)} kilograms`;
 }

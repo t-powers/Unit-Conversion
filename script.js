@@ -16,7 +16,7 @@ function lengthConversion() {
   let feetToMeter = meterInput / 3.281;
   length.innerHTML = `${meterInput} meters = ${meterToFeet.toFixed(
     3
-  )} feet  |  ${meterInput} feet = ${feetToMeter.toFixed(3)} meters`;
+  )} feet | ${meterInput} feet = ${feetToMeter.toFixed(3)} meters`;
 }
 
 // divide liter to gallon by 3.785
@@ -27,7 +27,7 @@ function volumeConversion() {
   let gallonToLiter = volumeInput * 3.785;
   volume.innerHTML = `${volumeInput} liters = ${literToGallon.toFixed(
     3
-  )} gallons  |  ${volumeInput} gallons = ${gallonToLiter.toFixed(3)} liters`;
+  )} gallons | ${volumeInput} gallons = ${gallonToLiter.toFixed(3)} liters`;
 }
 
 // multiply kilograms to pounds by 2.205
@@ -38,5 +38,5 @@ function massConversion() {
   let poundsToKilo = massInput / 2.205;
   mass.innerHTML = `${massInput} kilograms = ${kiloToPounds.toFixed(
     3
-  )}  |  ${massInput} pounds = ${poundsToKilo.toFixed(3)} kilograms`;
+  )} | ${massInput} pounds = ${poundsToKilo.toFixed(3)} kilograms`;
 }
